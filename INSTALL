@@ -1,0 +1,11 @@
+Prerequisite:
+Libdrm
+
+Note:
+Module "stm" is hard coded. Please change accoring to your board
+
+Compile program on target:
+gcc drm_multitouch.c -o drm_multitouch -I/usr/include/drm/ -ldrm -lm -lpthread
+
+Cross Compile:
+<cross-compiler-prefix>-gcc drm_multitouch.c -o drm_multitouch -I<libdrm_inc_path> -I<libdrm_inc_path>/drm -L<libdrm_lib_path> -ldrm -lm -lpthread

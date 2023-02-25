@@ -1,0 +1,15 @@
+Summary
+=======
+This utility tests multipoint touchscreens with DRM/KMS display backend.
+This tool is developed to assess the DRM/KMS functionality and the
+touchscreen when no display infrastructure is up.
+
+Currently four finger touch is supported. Touching fingers on the touchscreen
+displays circles with red, green, blue and white color respectively.
+You can drag each circle indendently.
+
+Usage:
+   drm_multitouch
+
+Note: It has to be run as root
+
